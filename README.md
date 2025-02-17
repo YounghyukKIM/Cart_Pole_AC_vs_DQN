@@ -41,6 +41,15 @@ This project implements reinforcement learning using Deep Q-Networks (DQN) for Q
   - $∣x∣>2.4$ ⇒ Terminate Episode
   - $∣θ∣>12$ ⇒ Terminate Episode
   - t≥max_steps⇒Terminate Episode
+ 
+### result
+- AC
+https://github.com/user-attachments/assets/e940a031-8374-4c28-b5de-45ca6abd5c13
+- DQN
+https://github.com/user-attachments/assets/4853b476-3cfd-4a62-aee7-a9d4d8837f11
+
+
+
 
 ### Comparison of DQN and Actor-Critic (A.C)
 To ensure a fair evaluation, both DQN and A.C were initially set up with identical reward functions, network architectures, and other conditions. However, while DQN learned effectively, A.C failed to learn at all. This phenomenon was also observed in a previously submitted assignment.
